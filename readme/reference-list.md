@@ -14,6 +14,12 @@ Reinecke, 2021. Video games and experiential learning in the COVID-19 era \[WWW 
 
 Free Math Learning Game for Kids \[WWW Document], 2019. . Prodigy Education. URL [https://www.prodigygame.com/main-en/](https://www.prodigygame.com/main-en/) (accessed 3.28.23).
 
+Todd, J., 2020. Video games can add to kids’ learning during COVID-19 pandemic \[WWW Document]. The Conversation. URL [https://theconversation.com/video-games-can-add-to-kids-learning-during-covid-19-pandemic-143959](https://theconversation.com/video-games-can-add-to-kids-learning-during-covid-19-pandemic-143959) (accessed 3.28.23).
+
+McFadden, C., 2019. 7 Video Games To Help Make Teaching Math Fun. Interesting Engineering. URL [https://interestingengineering.com/culture/7-video-games-to-help-make-teaching-math-fun](https://interestingengineering.com/culture/7-video-games-to-help-make-teaching-math-fun) (accessed 3.28.23)
+
+
+
 
 
 
