@@ -26,7 +26,9 @@ Contributors to Wikimedia projects, 2023. List of educational video games \[WWW 
 
 Clement, J., n.d. U.S. video gamers age 2022 \[WWW Document]. Statista. URL [https://www.statista.com/statistics/189582/age-of-us-video-game-players/](https://www.statista.com/statistics/189582/age-of-us-video-game-players/) (accessed 3.29.23).
 
+PEGI – The European content rating system \[WWW Document], 2020. . ISFE. URL [https://www.isfe.eu/responsible-gameplay/pegi-the-european-content-rating-system/ ](https://www.isfe.eu/responsible-gameplay/pegi-the-european-content-rating-system/)(accessed 3.29.23).
 
+VSC Rating Board, n.d. Video Standards Council Ratings Board \[WWW Document]. URL [https://videostandards.org.uk/RatingBoard/ratings](https://videostandards.org.uk/RatingBoard/ratings) (accessed 3.29.23).
 
 
 
