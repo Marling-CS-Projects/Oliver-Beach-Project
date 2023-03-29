@@ -18,6 +18,14 @@ Todd, J., 2020. Video games can add to kids’ learning during COVID-19 pandemic
 
 McFadden, C., 2019. 7 Video Games To Help Make Teaching Math Fun. Interesting Engineering. URL [https://interestingengineering.com/culture/7-video-games-to-help-make-teaching-math-fun](https://interestingengineering.com/culture/7-video-games-to-help-make-teaching-math-fun) (accessed 3.28.23)
 
+Gilbert, N., 2020. How many active video gamers were there in 2020? There were 2.69 billion video game players worldwide in 2020. FinancesOnline.com. URL [https://financesonline.com/number-of-gamers-worldwide/](https://financesonline.com/number-of-gamers-worldwide/) (accessed 3.29.23)
+
+Top Countries & Markets by Game Revenues \[WWW Document], 2018. . Newzoo. URL [https://newzoo.com/resources/rankings/top-10-countries-by-game-revenues](https://newzoo.com/resources/rankings/top-10-countries-by-game-revenues) (accessed 3.29.23).
+
+Contributors to Wikimedia projects, 2023. List of educational video games \[WWW Document]. Wikipedia. URL [https://en.wikipedia.org/wiki/List\_of\_educational\_video\_games](https://en.wikipedia.org/wiki/List\_of\_educational\_video\_games) (accessed 3.29.23).
+
+Clement, J., n.d. U.S. video gamers age 2022 \[WWW Document]. Statista. URL [https://www.statista.com/statistics/189582/age-of-us-video-game-players/](https://www.statista.com/statistics/189582/age-of-us-video-game-players/) (accessed 3.29.23).
+
 
 
 
