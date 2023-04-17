@@ -30,7 +30,7 @@ PEGI – The European content rating system \[WWW Document], 2020. . ISFE. URL [
 
 VSC Rating Board, n.d. Video Standards Council Ratings Board \[WWW Document]. URL [https://videostandards.org.uk/RatingBoard/ratings](https://videostandards.org.uk/RatingBoard/ratings) (accessed 3.29.23).
 
-
+ThinMatrix, 2018. Equilinox - Launch Trailer. YouTube. URL [https://www.youtube.com/watch?v=XuTXzLZMLUE](https://www.youtube.com/watch?v=XuTXzLZMLUE) (accessed 17/04/23)
 
 
 
