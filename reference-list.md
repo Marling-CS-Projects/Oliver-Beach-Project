@@ -34,6 +34,8 @@ ThinMatrix, 2018. Equilinox - Launch Trailer. YouTube. URL [https://www.youtube.
 
 Simple Doodle Jump in Java Free Source Code \[WWW Document], n.d. . Free Source Code Projects and Tutorials. URL [https://www.sourcecodester.com/java/15509/simple-doodle-jump-java-free-source-code.html ](https://www.sourcecodester.com/java/15509/simple-doodle-jump-java-free-source-code.html)(accessed 3.31.23).
 
+Gaubys, J., n.d. Most Popular Web Browsers in 2023 \[Mar ’23 Update]. Oberlo. URL [https://www.oberlo.com/statistics/browser-market-share](https://www.oberlo.com/statistics/browser-market-share) (accessed 5.12.23).
+
 
 
 
