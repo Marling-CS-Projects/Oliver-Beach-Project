@@ -36,7 +36,17 @@ Simple Doodle Jump in Java Free Source Code \[WWW Document], n.d. . Free Source 
 
 Gaubys, J., n.d. Most Popular Web Browsers in 2023 \[Mar ’23 Update]. Oberlo. URL [https://www.oberlo.com/statistics/browser-market-share](https://www.oberlo.com/statistics/browser-market-share) (accessed 5.12.23).
 
+Download and install Google Chrome - Computer \[WWW Document], n.d. . Google Chrome Help. URL [https://support.google.com/chrome/answer/95346?hl=en-GB\&co=GENIE.Platform%3DDesktop#zippy=%2Cwindows](https://support.google.com/chrome/answer/95346?hl=en-GB\&co=GENIE.Platform%3DDesktop#zippy=%2Cwindows) (accessed 5.12.23).
 
+admin, 2019. How To Install Safari Browser On Windows 10/11 \[WWW Document]. Into Windows. URL [https://www.intowindows.com/how-to-install-safari-browser-on-windows-10/](https://www.intowindows.com/how-to-install-safari-browser-on-windows-10/) (accessed 5.12.23).
+
+Apple Introduces Safari for Windows \[WWW Document], 2007. . Apple. URL [https://www.apple.com/newsroom/2007/06/11Apple-Introduces-Safari-for-Windows/](https://www.apple.com/newsroom/2007/06/11Apple-Introduces-Safari-for-Windows/) (accessed 5.12.23).
+
+Red, R., 2022. How to Install Safari on Linux \[WWW Document]. Make Tech Easier. URL [https://www.maketecheasier.com/install-safari-on-linux/](https://www.maketecheasier.com/install-safari-on-linux/) (accessed 5.12.23).
+
+srugh, n.d. Microsoft Edge Supported Operating Systems \[WWW Document]. Microsoft Learn. URL [https://learn.microsoft.com/en-us/deployedge/microsoft-edge-supported-operating-systems](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-supported-operating-systems) (accessed 5.12.23).
+
+macrequirements to load edge \[WWW Document], n.d. . Google Search. URL [https://www.google.com/search?q=macrequirements+to+load+edge\&rlz=1C1CHBF\_enGB1037GB1037\&ei=FiteZM-hDcSQ8gLx-L64Bw\&ved=0ahUKEwjPhM-n3u\_-AhVEiFwKHXG8D3cQ4dUDCA8\&uact=5\&oq=macrequirements+to+load+edge\&gs\_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIKCCEQoAEQwwQQCjIKCCEQoAEQwwQQCjIKCCEQoAEQwwQQCjoKCAAQRxDWBBCwA0oECEEYAFDOBVizB2C1CGgCcAB4AIABcYgBlwKSAQMyLjGYAQCgAQHIAQjAAQE\&sclient=gws-wiz-serp\&safe=active\&ssui=on](https://www.google.com/search?q=macrequirements+to+load+edge\&rlz=1C1CHBF\_enGB1037GB1037\&ei=FiteZM-hDcSQ8gLx-L64Bw\&ved=0ahUKEwjPhM-n3u\_-AhVEiFwKHXG8D3cQ4dUDCA8\&uact=5\&oq=macrequirements+to+load+edge\&gs\_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIKCCEQoAEQwwQQCjIKCCEQoAEQwwQQCjIKCCEQoAEQwwQQCjoKCAAQRxDWBBCwA0oECEEYAFDOBVizB2C1CGgCcAB4AIABcYgBlwKSAQMyLjGYAQCgAQHIAQjAAQE\&sclient=gws-wiz-serp\&safe=active\&ssui=on) (accessed 5.12.23).
 
 
 
