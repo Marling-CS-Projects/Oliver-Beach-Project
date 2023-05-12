@@ -44,9 +44,7 @@ Apple Introduces Safari for Windows \[WWW Document], 2007. . Apple. URL [https:/
 
 Red, R., 2022. How to Install Safari on Linux \[WWW Document]. Make Tech Easier. URL [https://www.maketecheasier.com/install-safari-on-linux/](https://www.maketecheasier.com/install-safari-on-linux/) (accessed 5.12.23).
 
-srugh, n.d. Microsoft Edge Supported Operating Systems \[WWW Document]. Microsoft Learn. URL [https://learn.microsoft.com/en-us/deployedge/microsoft-edge-supported-operating-systems](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-supported-operating-systems) (accessed 5.12.23).
-
-macrequirements to load edge \[WWW Document], n.d. . Google Search. URL [https://www.google.com/search?q=macrequirements+to+load+edge\&rlz=1C1CHBF\_enGB1037GB1037\&ei=FiteZM-hDcSQ8gLx-L64Bw\&ved=0ahUKEwjPhM-n3u\_-AhVEiFwKHXG8D3cQ4dUDCA8\&uact=5\&oq=macrequirements+to+load+edge\&gs\_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIKCCEQoAEQwwQQCjIKCCEQoAEQwwQQCjIKCCEQoAEQwwQQCjoKCAAQRxDWBBCwA0oECEEYAFDOBVizB2C1CGgCcAB4AIABcYgBlwKSAQMyLjGYAQCgAQHIAQjAAQE\&sclient=gws-wiz-serp\&safe=active\&ssui=on](https://www.google.com/search?q=macrequirements+to+load+edge\&rlz=1C1CHBF\_enGB1037GB1037\&ei=FiteZM-hDcSQ8gLx-L64Bw\&ved=0ahUKEwjPhM-n3u\_-AhVEiFwKHXG8D3cQ4dUDCA8\&uact=5\&oq=macrequirements+to+load+edge\&gs\_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIKCCEQoAEQwwQQCjIKCCEQoAEQwwQQCjIKCCEQoAEQwwQQCjoKCAAQRxDWBBCwA0oECEEYAFDOBVizB2C1CGgCcAB4AIABcYgBlwKSAQMyLjGYAQCgAQHIAQjAAQE\&sclient=gws-wiz-serp\&safe=active\&ssui=on) (accessed 5.12.23).
+Firefox  112.0.2 System Requirements \[WWW Document], n.d. . Mozilla. URL [https://www.mozilla.org/en-US/firefox/112.0.2/system-requirements/](https://www.mozilla.org/en-US/firefox/112.0.2/system-requirements/) (accessed 5.12.23).
 
 
 
