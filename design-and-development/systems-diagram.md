@@ -95,18 +95,16 @@ class Level extends Phaser Scene
     procedure create
         start music
         draw background
-        create players
-        create platforms
-        create puzzle elements
-        create enemies
+        create animals
+        create plants
         create obstacles
-        create finishing position
+        create implementation
         create key bindings
     end procedure
     
     procedure update
         handle key presses
-        move player
+        move camera
         move interactable objects
         update animations
         check if player at exit
