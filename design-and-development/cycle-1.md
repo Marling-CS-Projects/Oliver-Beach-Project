@@ -4,12 +4,14 @@
 
 ### Objectives
 
-\[describe the cycle]
+In this first cycle I decided to aim to make a colored background with a pointer that could move and would show on the screen. I decided to use Replit for this due to the easy html, css and java script integration needed to make a web browser game. Replit is also an IDE, meaning I could see what my changes where doing to my game in real time.&#x20;
 
-* [x] Do a thing
-* [x] Do another thing
+* [x] Color the background of the world
+* [x] Create a pointer with a png image that followed the users cursor.&#x20;
 
 ### Usability Features
+
+
 
 ### Key Variables
 
