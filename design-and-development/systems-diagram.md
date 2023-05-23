@@ -18,16 +18,15 @@ Usability is an important aspect to my game as I want it to be accessible to all
 
 ### Effective
 
-Users can achieve the goal with completeness and accuracy. To do this, I will make it easy for the players to realise that they need to reach a goal in order to complete a level. I will make this goal clear to see so there is no confusion over where the players need to go.
+Users can achieve a goal with completeness and accuracy. To do this, I will make it easy for the players to realise that they need to reach a goal in order to continue the game. I will make this goal clear to see so there is no confusion over what the players need to do.
 
 #### Aims
 
-* Create a clear goal to reach to determine the end of a level
-* Create a clear goal for any multiplayer modes
+* Create multiple, clear goals to reach&#x20;
 
 ### Efficiency
 
-The speed and accuracy to which a user can complete the goal. To do this, I will create a menu system which is easy to navigate through in order for to find what you are looking for. The information which is more important can be found with less clicks.
+The speed and accuracy to which a user can complete the goals. To do this, I will create a menu system which is easy to navigate through in order for to find what you are looking for. The information which is more important can be found with less clicks.
 
 #### Aims
 
@@ -36,12 +35,12 @@ The speed and accuracy to which a user can complete the goal. To do this, I will
 
 ### Engaging
 
-The solution is engaging for the user to use. To do this, I will create 5 levels and an online multiplayer mode to keep the players engaged and allow them to have fun while playing the game. Using vector style art will also make the game nicer to look at than blocks, so will draw more people in, keeping them engaged.
+The game is engaging for the user to play. To do this, I will create an interesting map and creatures to keep the players engaged and allow them to have fun while playing the game. Using vector style art will also make the game nicer to look at than blocks, so will draw more people in, keeping them engaged.
 
 #### Aims
 
-* Create a series of levels to work through
-* Create a multiplayer mode to play
+* Create a nice looking world
+* Create lots of interesting creatures and plants.
 * Incorporate a style of game art the suits the game
 
 ### Error Tolerant
@@ -60,7 +59,7 @@ The solution should be easy to use and not be over complicated. To do this, I wi
 #### Aims
 
 * Create a list of controls for the game
-* Create an in-level guide that helps players learn how to play the game
+* Create an in-level help system that helps players learn how to play the game initially, reducing in help as the game progresses
 
 ## Pseudocode for the Game
 
