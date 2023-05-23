@@ -15,10 +15,12 @@ The game needs to be able to run **without crashing** and also allow for **playe
 
 ### Key Variables
 
-| Variable Name    | Use                                              |
-| ---------------- | ------------------------------------------------ |
-| background color | Colours the background of the web page, in css.  |
-| cursor           | Changes the cursor                               |
+| Variable Name       | Use                                              |
+| ------------------- | ------------------------------------------------ |
+| background color    | Colours the background of the web page, in css.  |
+| cursor              | Changes the cursor                               |
+| grid                | Creates a grid that seperates text or items      |
+| grid template color | Changes the background of a grid box.            |
 
 ### Pseudocode
 
