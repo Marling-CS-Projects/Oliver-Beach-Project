@@ -41,25 +41,6 @@ on leftmouseclick {
 
 ```
 
-## Development
-
-### Outcome
-
-### Challenges
-
-Description of challenges
-
-## Testing
-
-Evidence for testing
-
-### Tests
-
-| Test | Instructions  | What I expect     | What actually happens | Pass/Fail |
-| ---- | ------------- | ----------------- | --------------------- | --------- |
-| 1    | Run code      | Thing happens     | As expected           | Pass      |
-| 2    | Press buttons | Something happens | As expected           | Pass      |
-
 ### Evidence
 
 ```javascript
@@ -236,6 +217,10 @@ And this JavaScript primarily handles the cell feature of the interactable area,
 * Create multiple colours in the grid, that when clicked change.
 
 The background is coloured a green to show the grass that will be the basis of the game. There is an interactable grid that recognises when the player clicks an area and gives a response. The last point changed to a colour picker but the idea remained the same- the player chooses a colour and clicks on the grid, where clicked that colour appears.&#x20;
+
+### Challenges
+
+The main challenge was the ammount of time I spent trying to create a grid that when interacted with caused a change. I had roughly four iterations of code, all trying to figure this one problem out. I went over it with friends and family and still never found what was preventing it from working, so I instead had to move on to a new idea, which was something I had never worked on or in before - HTML canvas.
 
 ### Testing&#x20;
 
