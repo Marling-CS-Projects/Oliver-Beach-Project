@@ -17,7 +17,7 @@
 
 * [2.1 Design Frame](design-and-development/systems-diagram.md)
 * [2.2.1 Cycle 1: World Design](design-and-development/cycle-1.md)
-* [2.2.2 Cycle 2:](design-and-development/cycle-1-1.md)
+* [2.2.2 Cycle 2: Implementation System](design-and-development/cycle-1-1.md)
 * [2.2.3 Cycle 2](design-and-development/cycle-1-2.md)
 * [2.2.4 Cycle 2](design-and-development/cycle-1-3.md)
 

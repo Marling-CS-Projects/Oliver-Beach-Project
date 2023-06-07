@@ -1,13 +1,16 @@
-# 2.2.2 Cycle 2
+# 2.2.2 Cycle 2: Implementation System
 
 ## Design
 
+This cycle focuses primarily on the way that the player will take something from a bar along the base of the screen, before then implementing said thing into one of the cells. I hope to have these things be such as a squirrel, a bush and a tree with possible water.&#x20;
+
 ### Objectives
 
+The objective of creating water is a definite goal, but this cycle it may be difficult as I am still learning JavaScript and this requires making a cell "locked" to placement of other things- so that a squirrel can only travel on grass and trees, for example.&#x20;
 
-
-*
-*
+* [ ] Create a taskbar that displays the things that can be placed down.&#x20;
+* [ ] Allow the player to "grab" one of these things off the taskbar and place it into the world.&#x20;
+* [ ] Create a system that only allows things to be placed in certain areas.&#x20;
 
 ### Usability Features
 
