@@ -28,6 +28,17 @@ The game needs to be able to run **without crashing** and also allow for **playe
 ### Pseudocode
 
 ```
+Const canvas 
+Const colours 
+Const drawing
+
+canvas = width "x", height "y"
+when colours = selected, change colour 
+
+on leftmouseclick {
+    fill cell x, y  with colours
+    }
+
 ```
 
 ## Development
