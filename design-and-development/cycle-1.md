@@ -147,4 +147,80 @@ This code got closer to the result that I wanted, but didn't change colour when 
 This HTML mainly focuses on the creation of the view the webpage viewer experiences.&#x20;
 
 ```javascript
+/**
+ * @type HTMLCanvasElement
+ */
+//initiates the html elements in javascript
+const canvas = document.getElementById("canvas");
+const colorInput = document.getElementById("colorInput");
+const toggleGuide = document.getElementById("toggleGuide");
+const clearButton = document.getElementById("clearButton");
+const drawingContext = canvas.getContext("2d");
+
+//creates the cell dimensions in the canvas, which is dependant on the width on the size of the canvas width so in my case it is manually set to 1920
+const CELL_SIDE_COUNT = 100;
+const cellPixelLength = canvas.width / CELL_SIDE_COUNT;
+const colorHistory = {};
+
+// Set default color
+colorInput.value = "#009578";
+
+// Initialize the canvas background
+drawingContext.fillStyle = "#006000";
+drawingContext.fillRect(0, 0, canvas.width, canvas.height);
+
+// This function manages the actuall creation of a coloured pixel upon the input of the user. 
+function handleCanvasMousedown(e) {
+    // Ensure user is using their primary mouse button
+    if (e.button !== 0) {
+        return;
+    }
+
+    const canvasBoundingRect = canvas.getBoundingClientRect();
+    const x = e.clientX - canvasBoundingRect.left;
+    const y = e.clientY - canvasBoundingRect.top;
+    const cellX = Math.floor(x / cellPixelLength);
+    const cellY = Math.floor(y / cellPixelLength);
+    const currentColor = colorHistory[`${cellX}_${cellY}`];
+
+    if (e.ctrlKey) {
+        if (currentColor) {
+            colorInput.value = currentColor;
+        }
+    } else {
+        fillCell(cellX, cellY);
+    }
+}
+
+// This function manages the clear button, ensuring that it is only pressed on purpose with a check system and if the user confirms they do want to clear, I have set it to clear the screen back to the original colour. This button will be here in the developmental phase so I can watch what my inputs change and do, but in the end game it should be in an "options" menu, to restart the game. 
+function handleClearButtonClick() {
+    const yes = confirm("Are you sure you wish to clear the canvas?");
+
+    if (!yes) return;
+
+    drawingContext.fillStyle = "#006000";
+    drawingContext.fillRect(0, 0, canvas.width, canvas.height);
+}
+
+// This is the code that manages the coloured cell creation phase, taking the width and height of the cell and then filling the resultant area. 
+function fillCell(cellX, cellY) {
+    const startX = cellX * cellPixelLength;
+    const startY = cellY * cellPixelLength;
+
+    drawingContext.fillStyle = colorInput.value;
+    drawingContext.fillRect(startX, startY, cellPixelLength, cellPixelLength);
+    colorHistory[`${cellX}_${cellY}`] = colorInput.value;
+}
+//This just handles the interactions from the viewer. 
+canvas.addEventListener("mousedown", handleCanvasMousedown);
+clearButton.addEventListener("click", handleClearButtonClick);
+
 ```
+
+And this JavaScript primarily handles the cell feature of the interactable area, ensuring that the colour entered is the one wanted by the player. This will change over time, but offers me a stable basepoint that completes my original goals.&#x20;
+
+* Color the background of the world
+* Create an interactable grid that can be clicked.&#x20;
+* Create multiple colours in the grid, that when clicked change.
+
+The background is coloured a green to show the grass that will be the basis of the game. There is an interactable grid that recognises when the player clicks an area and gives a response. The last point changed to a colour picker but the idea remained the same- the player chooses a colour and clicks on the grid, where clicked that colour appears.&#x20;
