@@ -1,6 +1,8 @@
-# 2.2.1 Cycle 1
+# 2.2.1 Cycle 1: World Design
 
 ## Design
+
+I will make a grid that when interacted with will change colour. This will be the foundation I then use to create the creature implementation, as the player will select a button and then place it in a grid. For this to happen the game needs to recognise individual cells as the map and be able to change the state of said cells.&#x20;
 
 ### Objectives
 
