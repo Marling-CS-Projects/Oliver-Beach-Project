@@ -14,7 +14,9 @@ The objective of creating water is a definite goal, but this cycle it may be dif
 
 ### Usability Features
 
-The game needs to be able to run **without crashing** and also allow for **player interactions** and **world interactions**.&#x20;
+It needs to be a **simple feature** that allows the player to **see what is unlocked and what they can implement**.&#x20;
+
+The player needs to be able to **fluidly implement** the things from the taskbar, including the **implementation of rocks and plants**.&#x20;
 
 ### Key Variables
 

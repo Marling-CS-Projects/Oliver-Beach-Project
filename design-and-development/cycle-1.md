@@ -28,9 +28,6 @@ The game needs to be able to run **without crashing** and also allow for **playe
 ### Pseudocode
 
 ```
-procedure do_something
-    
-end procedure
 ```
 
 ## Development
