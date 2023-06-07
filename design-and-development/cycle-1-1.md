@@ -30,9 +30,15 @@ The player needs to be able to **fluidly implement** the things from the taskbar
 ### Pseudocode
 
 ```
-procedure do_something
-    
-end procedure
+Const taskbar
+Const animal
+Const plant
+
+display button position bottom, allignment centre
+on button interaction, change colour selection to animals representative colour. 
+
+animal = brown
+plant = green
 ```
 
 ## Development
