@@ -7,8 +7,8 @@
 In this first cycle I decided to aim to make a colored background withgrad that would be interactable with and would show on the screen. I decided to use Replit for this due to the easy html, css and java script integration needed to make a web browser game. Replit is also an IDE, meaning I could see what my changes where doing to my game in real time.&#x20;
 
 * [x] Color the background of the world
-* [ ] Create an interactable grid that can be clicked.&#x20;
-* [ ] Create multiple colours in the grid, that when clicked change.
+* [x] Create an interactable grid that can be clicked.&#x20;
+* [x] Create multiple colours in the grid, that when clicked change.
 
 ### Usability Features
 
@@ -102,4 +102,49 @@ for (let i = 0; i < nRows; i++) {
 <table id= "gridContainer"></table>
 ```
 
-This code got closer to the result that I wanted, but didn't change colour when clicked. Due to this, I tried changing the way I was approaching the problem. I thought about trying to use a canvas approach, making a pixel canvas that the player could colour with the entities.&#x20;
+This code got closer to the result that I wanted, but didn't change colour when clicked. Due to this, I tried changing the way I was approaching the problem. I thought about trying to use a canvas approach, making a pixel canvas that the player could colour with the entities. This method has become closer to being like a pixel art layout and will need adjustments but for the first time what I want to happen is happening.&#x20;
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+    This area gives the browser the information to load the code on a webpage. 
+    -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<!--
+    This area initiates the canvas, setting its dimensions and also creating a colour picker and a clear button.  
+    -->
+<body>
+    <div>
+        <canvas width="1920" height="850" id="canvas"></canvas>
+    </div>
+    <div>
+        <label for="colorInput">Set Color: </label>
+        <input type="color" id="colorInput">
+    </div>
+    <div>
+        <button type="button" id="clearButton">Temp Clear</button>
+    </div>
+    <script src="script.js"></script>
+
+    <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+    <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right" size = "10%"></script>
+</body>
+
+</html>
+```
+
+This HTML mainly focuses on the creation of the view the webpage viewer experiences.&#x20;
+
+```javascript
+```
