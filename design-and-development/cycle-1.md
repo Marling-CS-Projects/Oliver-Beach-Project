@@ -102,7 +102,9 @@ for (let i = 0; i < nRows; i++) {
 <table id= "gridContainer"></table>
 ```
 
-This code got closer to the result that I wanted, but didn't change colour when clicked. Due to this, I tried changing the way I was approaching the problem. I thought about trying to use a canvas approach, making a pixel canvas that the player could colour with the entities. This method has become closer to being like a pixel art layout and will need adjustments but for the first time what I want to happen is happening.&#x20;
+This code got closer to the result that I wanted, but didn't change colour when clicked. Due to this, I tried changing the way I was approaching the problem. I thought about trying to use a canvas approach, making a pixel canvas that the player could colour with the entities. This method has become closer to being like a pixel art layout and will need adjustments but for the first time what I want to happen is happening; "button" like grid cells are appearing and nearly change colour when interacted with.&#x20;
+
+### Final Code for an interactable grid element.
 
 ```html
 <!DOCTYPE html>
@@ -224,3 +226,9 @@ And this JavaScript primarily handles the cell feature of the interactable area,
 * Create multiple colours in the grid, that when clicked change.
 
 The background is coloured a green to show the grass that will be the basis of the game. There is an interactable grid that recognises when the player clicks an area and gives a response. The last point changed to a colour picker but the idea remained the same- the player chooses a colour and clicks on the grid, where clicked that colour appears.&#x20;
+
+### Testing&#x20;
+
+Evidence of my testing of the code.&#x20;
+
+<table><thead><tr><th width="149">Test</th><th width="238">Expected outcome</th><th width="278">Actual outcome</th><th>Result</th></tr></thead><tbody><tr><td>1- Interactable grid</td><td>A grid appears that when clicked randomly chooses a colour from a given list</td><td>A grid appeared but when interacted with nothing happened- The grid just remained as it started</td><td>Fail</td></tr><tr><td>2- Interactable grid code 2</td><td>A revised grid appears that when clicked turns from black squares to red squares. </td><td>A grid appears nicely lain out in black, but when interacted with, no colour change occurred.</td><td>Fail</td></tr><tr><td>3- Pixel canvas</td><td>A flat plane appears that when interacted with turns individual cells a different colour</td><td>One colour appears with no seams, when interacted with a cell changes to the selected colour. </td><td>Pass</td></tr></tbody></table>
