@@ -8,7 +8,7 @@ This cycle focuses primarily on the way that the player will take something from
 
 The objective of creating water is a definite goal, but this cycle it may be difficult as I am still learning JavaScript and this requires making a cell "locked" to placement of other things- so that a squirrel can only travel on grass and trees, for example.&#x20;
 
-* [ ] Create a taskbar that displays the things that can be placed down.&#x20;
+* [x] Create a taskbar that displays the things that can be placed down.&#x20;
 * [ ] Allow the player to "grab" one of these things off the taskbar and place it into the world.&#x20;
 * [ ] Create a system that only allows things to be placed in certain areas.&#x20;
 
@@ -42,6 +42,10 @@ plant = green
 ```
 
 ## Development
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+This was the first major issue I found- my code wasn't responding to being clicked as a button. As it turned out, the issue was that I had set everything as a class and not as an Id, meaning it didn't respond as I expected.&#x20;
 
 ### Outcome
 
