@@ -9,7 +9,7 @@ This cycle focuses primarily on the way that the player will take something from
 The objective of creating water is a definite goal, but this cycle it may be difficult as I am still learning JavaScript and this requires making a cell "locked" to placement of other things- so that a squirrel can only travel on grass and trees, for example.&#x20;
 
 * [x] Create a taskbar that displays the things that can be placed down.&#x20;
-* [ ] Allow the player to "grab" one of these things off the taskbar and place it into the world.&#x20;
+* [x] Allow the player to "grab" one of these things off the taskbar and place it into the world.&#x20;
 * [ ] Create a system that only allows things to be placed in certain areas.&#x20;
 
 ### Usability Features
