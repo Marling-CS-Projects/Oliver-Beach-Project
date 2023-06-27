@@ -206,9 +206,19 @@ Vehicle.prototype.edges = function() {
 
 ### Outcome
 
+My three different sets of code have very different outcomes. The first set of code is the most user  interactivity game. It allows the player to build a setting for the background.&#x20;
+
+The next set of code was a study into Perlin noise and my first time using p5. It runs well, allowing a dot to move fluidly around a screen whilst simultaneusly moving completely randomly. This inspired me to continue my original idea of interactions between entities, as I could have two dots that would move randomly and be seperate individuals.&#x20;
+
+This is where the third piece of code comes into importance, the two dots will be able to move closer together and when they randomly move close enough they will chase and flee until they may be driven of the side of the map.&#x20;
+
 ### Challenges
 
 Description of challenges
+
+p5 Web editor. This platform was blocked on my school wifi, meaning I had to create code and only test it on a school laptop. This meant that I had difficulty checking errors as I was coding.&#x20;
+
+When following a tutorial, I was being presented with ideas I hadn't dealt with before as an amateur at both JavaScript and now p5JS. This meant that I was learning about things like velocity, map placements and p5's system of a "setup" which initiates everything, creating buttons, characters ie.&#x20;
 
 ## Testing
 
