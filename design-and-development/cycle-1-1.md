@@ -20,12 +20,12 @@ The player needs to be able to **fluidly implement** the things from the taskbar
 
 ### Key Variables
 
-| Variable Name | Use |
-| ------------- | --- |
-|               |     |
-|               |     |
-|               |     |
-|               |     |
+| Variable Name | Use                                                                                                              |
+| ------------- | ---------------------------------------------------------------------------------------------------------------- |
+| .velocity     | Decides the speed that the entities are chasing each other.                                                      |
+| background    | Sets the area to use as the active site.                                                                         |
+| map           | Sets the area that entities can travel in, as a representation of pixels. Allows x and y coordinate selection.   |
+| fill          | Fills part of the canvas with the shape of the selected thing- could be a square or a single pixel for example.  |
 
 ### Pseudocode
 
@@ -81,7 +81,128 @@ function draw() {
 }// Some code
 ```
 
-This code was my next progression point. I studied "Perlin noise", a technique to make a random point more even. This allowed me to make a random moving pixel that stuck to a logic and seemed less eratic. I used this to make the code above, which when ran creates an ellipsis that leaves a "trail" and moves in a random fashion around the screen.&#x20;
+This code was my next progression point. I studied "Perlin noise", a technique to make a random point more even. This allowed me to make a random moving pixel that stuck to a logic and seemed less eratic. I used this to make the code above, which when ran creates an ellipsis that leaves a "trail" and moves in a random fashion around the screen. I wanted to use this to create a system where it would show animals as little pixels and they would move around the screen randomly.&#x20;
+
+
+
+These next two code sets work together in p5 Javascript to make a hunter prey system.&#x20;
+
+```javascript
+// script.js;
+let v2;
+let velocity;
+let slider;
+let debug;
+
+function setup() {
+    createCanvas(640, 360);
+    velocity = p5.Vector.random2D();
+    velocity.mult(random(1, 3));
+    v1 = new Vehicle();
+    v2 = new Vehicle();
+    slider = createSlider(25, 150, 100);
+    debug = createCheckbox();
+}
+
+function draw() {
+    background(255);
+
+    var seek = v1.seek(v2.location);
+    v1.applyForce(seek);
+
+    var neighborDist = slider.value();
+    if (v2.location.dist(v1.location) < neighborDist) {
+        var flee = v2.seek(v1.location);
+        flee.mult(-5);
+        v2.applyForce(flee);
+    }
+
+    v1.update();
+    v1.edges();
+    v1.display();
+
+    v2.update();
+    v2.edges();
+    v2.display();
+
+    if (debug.checked()) {
+        stroke(0);
+        noFill();
+        ellipse(v2.location.x, v2.location.y, neighborDist * 2, neighborDist * 2);
+    }
+
+    fill(0);
+    noStroke();
+    textSize(32);
+    text(neighborDist, 15, height - 25);
+}
+```
+
+```javascript
+// Vehicle.js
+class Vehicle {
+    constructor() {
+        this.location = createVector(random(width), random(height));
+        this.velocity = p5.Vector.add(velocity, p5.Vector.random2D());
+        this.acceleration = createVector();
+        this.r = 6;
+        this.maxspeed = 4;
+        this.maxforce = 0.1;
+    }
+}
+
+Vehicle.prototype.update = function() {
+    this.velocity.add(this.acceleration);
+    this.velocity.limit(this.maxspeed);
+    this.location.add(this.velocity);
+    this.acceleration.mult(0);
+}
+
+Vehicle.prototype.applyForce = function(force) {
+    this.acceleration.add(force);
+}
+
+Vehicle.prototype.seek = function(target) {
+
+    var desired = p5.Vector.sub(target, this.location);
+
+    desired.normalize();
+    desired.mult(this.maxspeed);
+
+    var steer = p5.Vector.sub(desired, this.velocity);
+
+    steer.limit(this.maxforce);
+
+    return steer;
+}
+
+Vehicle.prototype.display = function() {
+
+    var theta = this.velocity.heading() + radians(90);
+    fill(127);
+    stroke(0);
+    strokeWeight(1);
+    push();
+    translate(this.location.x, this.location.y);
+    rotate(theta);
+    beginShape();
+    vertex(0, -this.r * 2);
+    vertex(-this.r, this.r * 2);
+    vertex(this.r, this.r * 2);
+    endShape(CLOSE);
+    pop();
+}
+
+Vehicle.prototype.edges = function() {
+    if (this.location.x > width) this.location.x = 0;
+    if (this.location.x < 0) this.location.x = width;
+    if (this.location.y > height) this.location.y = 0;
+    if (this.location.y < 0) this.location.y = height;
+
+}
+```
+
+&#x20;This code was a tutorial from the p5 website. This code creates two Vehicles, with a predator prey function. One remains in roughly the centre, chasing the other vehicle which appears and disappears on the corners of the screen. It initiates flee settings when the predator is within a set distance in a sphere around itself. I wanted to use this code to create two dots that would move randomly until they came into close contact, at which point there was a chase setting.&#x20;
 
 ### Outcome
 
