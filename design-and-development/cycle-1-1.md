@@ -45,7 +45,43 @@ plant = green
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-This was the first major issue I found- my code wasn't responding to being clicked as a button. As it turned out, the issue was that I had set everything as a class and not as an Id, meaning it didn't respond as I expected.&#x20;
+This was the first major issue I found- my code wasn't responding to being clicked as a button. As it turned out, the issue was that I had set everything as a class and not as an Id, meaning it didn't respond as I expected. When fixed, this code allowed me to select a color representative of the name of the button, ie a grey pixel for a rock. This allowed a user to "paint" an environment, however this style of coding didn't allow for any reactions in the game- no animals could interact as they were just pixels.
+
+```javascript
+var x,y;
+var t = 0;
+var T = 1000;
+let button;
+let button2;
+
+function setup() {
+    createCanvas(1920, 1080);
+    background(255);
+    frameRate (30);
+    button = createButton ("Stop");
+    button.position (0, 0);
+    button.mousePressed (noLoop);
+    button2 = createButton ("Resume");
+    button2.position (60, 0);
+    button2.mousePressed (loop);
+}
+
+function draw() { 
+  fill(0,10000);
+  noStroke(1000);
+  ellipse(x,y,5,5);
+  // x=100;y=200;
+  x = noise(t);
+  x = map(x,0,1,0,width);
+  y = noise(T);
+  y = map(y,0,1,0,height);
+  t =t+0.005;
+  T =T+0.005;
+  console.log(x,y);
+}// Some code
+```
+
+This code was my next progression point. I studied "Perlin noise", a technique to make a random point more even. This allowed me to make a random moving pixel that stuck to a logic and seemed less eratic. I used this to make the code above, which when ran creates an ellipsis that leaves a "trail" and moves in a random fashion around the screen.&#x20;
 
 ### Outcome
 
