@@ -10,7 +10,7 @@ The objective of creating water is a definite goal, but this cycle it may be dif
 
 * [x] Create a taskbar that displays the things that can be placed down.&#x20;
 * [x] Allow the player to "grab" one of these things off the taskbar and place it into the world.&#x20;
-* [ ] Create a system that only allows things to be placed in certain areas.&#x20;
+* [ ] ~~Create a system that only allows things to be placed in certain areas.~~&#x20;
 
 ### Usability Features
 
