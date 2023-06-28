@@ -220,15 +220,14 @@ p5 Web editor. This platform was blocked on my school wifi, meaning I had to cre
 
 When following a tutorial, I was being presented with ideas I hadn't dealt with before as an amateur at both JavaScript and now p5JS. This meant that I was learning about things like velocity, map placements and p5's system of a "setup" which initiates everything, creating buttons, characters ie.&#x20;
 
+After this I tried to merge the codes together and faced great difficulty keeping the random movement system whilst simultaneously maintaining the hunting system. I am still in the process of modifying this system and making it merge succesfully.&#x20;
+
 ## Testing
 
 Evidence for testing
 
 ### Tests
 
-| Test | Instructions  | What I expect     | What actually happens | Pass/Fail |
-| ---- | ------------- | ----------------- | --------------------- | --------- |
-| 1    | Run code      | Thing happens     | As expected           | Pass      |
-| 2    | Press buttons | Something happens | As expected           | Pass      |
+<table><thead><tr><th width="97">Test</th><th width="230">Instructions</th><th width="216">What I expect</th><th width="111">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Graph System ran, tested pressing buttons to change input colour. </td><td>The graph should have buttons that can be clicked. The player should be able to then click a pixel and the cell changes to the buttons respective colour.</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Ran the Perlin Noise system, pressed pause and resume. </td><td>The Perlin Noise dot should appear somewhere in the screen, should move around and it should place an image of itself under where it is going. When pause is pressed it should freeze, resume should unpause it.</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Ran the Hunter Prey system. Changed the slider to adjust the range at which they are chased at. </td><td>Expected the vehicles to seek each other out, with the slider deciding the required proximity to cause a flee system. </td><td>Nothing appeared in my web page. </td><td>Fail</td></tr><tr><td>4</td><td>Ran the Hunter Prey system. Changed the code to include the vehicle file, which contains the features of the vehicle classes. </td><td>Expected the vehicles to seek each other out, with the slider deciding the required proximity to cause a flee system. </td><td>As expected, their was a chase and the slider worked.</td><td>Pass</td></tr></tbody></table>
 
 ### Evidence
