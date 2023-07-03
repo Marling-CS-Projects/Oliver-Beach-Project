@@ -10,8 +10,8 @@ Another thing I would like to atleast attempt is trying to put one of the system
 
 These are subject to change due to the difficulty of this cycle and the way in which I am unsure of whether the different codes will work together.&#x20;
 
-*
-*
+* [x] Try and combine a random movement system to the hunt system.&#x20;
+* [x] Try and set the background to a colour in my code.&#x20;
 
 ### Usability Features
 
