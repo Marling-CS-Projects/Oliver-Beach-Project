@@ -31,9 +31,15 @@ The game may not have much interactability at this stage but I would like for th
 ### Pseudocode
 
 ```
-procedure do_something
-    
-end procedure
+movement ()
+    move vehicle noise (0, 8)
+
+seek ()
+    slider = 0, 50, 100
+    if vehicle1 in vehicle2 ellipsis radius slider
+        vehicle1 seek vehicle2
+
+
 ```
 
 ## Development
