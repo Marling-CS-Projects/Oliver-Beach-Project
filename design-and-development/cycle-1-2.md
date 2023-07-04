@@ -33,7 +33,9 @@ The game may not have much interactability at this stage but I would like for th
 ```
 movement ()
     move vehicle noise (0, 8)
-
+fade ()
+    background (0, 100)
+    
 seek ()
     slider = 0, 50, 100
     if vehicle1 in vehicle2 ellipsis radius slider
@@ -43,6 +45,43 @@ seek ()
 ```
 
 ## Development
+
+Initial development was focussed on the fade out system. I used my perlin noise system as the base, however I realised that in the original there was a trail left after the dot.&#x20;
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+As one can see, this appears fine initially. The trail can almost be a benefit, showing the way in which the dot is travelling and the random velocity it is travelling with, thanks to the spacing between the dots.&#x20;
+
+<figure><img src="../.gitbook/assets/Image for project of mess.png" alt=""><figcaption><p>The black sphere shows where the currently moving dot is located. </p></figcaption></figure>
+
+However, I hope one can see why this needed to change. It rapidly becomes an unclear mess of trails, where you can barely see the actual moving dot and instead you have to focus on the trail. To fix this issue, I decided the trail needed to fade out after it had been made. I spent a long time trying to make a system that remembered the position of the dot from, say, five positions previously. After spending the time trying to figure this out, I came up with a new solution thanks to inspiration from an art game on the p5 website. All I needed to do was set the background to a dark colour, then set the dot to a bright colour and create a second background that was an incredibly dark colour. The second background acts as a mask, covering the original. This means that when the trail is created, it dissapears behind the mask and leaves only the dot itself and a very short trail behind it. This allows for the appearance of a single point that is moving randomly arround the background.
+
+```javascript
+let t;
+function setup() {
+    createCanvas(innerWidth -10, innerHeight -10);
+    background(0);
+    t = 0;
+}
+
+function draw() {
+    // fade the background by giving it a low opacity
+    background(0, 100); // higher second = darker trail
+
+    var x = width * noise(t);
+    var y = height * noise(t + 5);
+
+    noStroke();
+    fill(10000, 1000);
+    ellipse(x, y, 10, 10);
+
+    t = t + 0.003;
+}
+```
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Note the lack of a visible trail, instead the singular point that appears to move on its own- closer to a wild animal moving around an environment semi-randomly. </p></figcaption></figure>
+
+I then changed this code by adjusting the background colour from the dark black that it currently was to a nicer green colour, that would better represent the green field I wanted the game to occur in.&#x20;
 
 ### Outcome
 
