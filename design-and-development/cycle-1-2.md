@@ -21,12 +21,12 @@ The game may not have much interactability at this stage but I would like for th
 
 ### Key Variables
 
-| Variable Name | Use |
-| ------------- | --- |
-|               |     |
-|               |     |
-|               |     |
-|               |     |
+| Variable Name | Use                                                                                                                                                                                                                   |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| text ()       | Allows printing of both 'text' and also variables. Used to show the x value of the ball (constantly updating) and also to show the player what the slider does.                                                       |
+| background () | Initially this is used to create the area that can be interacted with. However I learnt that if updated simultaneously with the ball's movement, the background itself can be updated and used as an opacity filter.  |
+| textsize ()   | Adjusts the size of text displayed. Helps create a more uniform, sleek and professional look.                                                                                                                         |
+| height ()     | Grabs the users inner window length of the screen. Means that the game adjusts for different window sizes on loading,                                                                                                 |
 
 ### Pseudocode
 
@@ -85,9 +85,13 @@ I then changed this code by adjusting the background colour from the dark black 
 
 ### Outcome
 
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
 ### Challenges
 
-Description of challenges
+Making the background opacity system work well- I was often left with a "phantom" trail, a very light grey / black shadow of where the ball had been. This wasn't bad initially but as the code ran for a longer time, the shadows built up until you once again lost the ball in an unclear mess. To fix this I adjusted the opacity levels and the way it was being applied to the screen, moving it forwards a layer so it coated the back more completely.&#x20;
+
+Another thing I struggled with, was the velocity slider. I wanted the player to be able to adjust the speed the simulation was running at, using a slider. However I struggled immensley getting the numerical value of the slider to work with the speed system. I fixed this eventually by dividing the slider value by 1000. Something I hadn't considered was the way in which the speed system was working on a value around 0.002 being the current speed. Anything above 0.1 was almost too fast too see. With my slider I was trying to set the speed to at minimum 1, up to 100 initially. Eventually I found that by dividing this by 1000 I got a value that could be shown on screen, fixing the issue.&#x20;
 
 ## Testing
 
@@ -95,9 +99,6 @@ Evidence for testing
 
 ### Tests
 
-| Test | Instructions  | What I expect     | What actually happens | Pass/Fail |
-| ---- | ------------- | ----------------- | --------------------- | --------- |
-| 1    | Run code      | Thing happens     | As expected           | Pass      |
-| 2    | Press buttons | Something happens | As expected           | Pass      |
+<table><thead><tr><th>Test</th><th>Instructions</th><th width="170">What I expect</th><th>What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Dot spawns in a random area, stays in the screen and moves around. </td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Slider moved</td><td>Ball should speed up / slow down.</td><td>Slider addition stops code from running.</td><td>Fail</td></tr><tr><td>3</td><td>Slider moved 2</td><td>Ball should speed up / slow down.</td><td>Ball moves faster / slower. </td><td>Pass</td></tr><tr><td>4</td><td>Text displays correct information. </td><td>Text should show the movement speed value, the position of the ball and a description of the slider. </td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
 ### Evidence
