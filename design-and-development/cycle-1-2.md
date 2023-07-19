@@ -83,7 +83,73 @@ function draw() {
 
 I then changed this code by adjusting the background colour from the dark black that it currently was to a nicer green colour, that would better represent the green field I wanted the game to occur in.&#x20;
 
+
+
+```javascript
+let t;
+let t2;
+let velo = 0.003;
+let slider;
+
+function setup() {
+    createCanvas(innerWidth - 10, innerHeight - 10);
+    background('lightblue');
+    t = 0;
+    t2 = 0;
+    button = createButton("Pause");
+    button.position(10, 10);
+    button.mousePressed(noLoop);
+    button2 = createButton("Resume");
+    button2.position(70, 10);
+    button2.mousePressed(loop);
+    slider = createSlider(1, 50, 10);
+}
+
+function draw() {
+    // fade the background by giving it a low opacity
+    background('lightblue'); // higher second = darker trail
+    let velo = slider.value() / 1000;
+    let x = width * noise(t);
+    let y = height * noise(t + 5);
+    let x2 = width * noise(t2);
+    let y2 = height * noise(t2 + 5);
+    
+    function fishLeft() {
+        triangle(x + 35, y + 20, x + 25, y, x + 35, y - 20)
+        ellipse(x, y, 50, 15)
+        ellipse(x - 15, y, 5, 5)
+    }
+    function fishRight() {
+        triangle(x2 - 35, y2 + 20, x2 - 25, y2, x2 +-35, y2 - 20)
+        ellipse(x2, y2, 50, 15)
+        ellipse(x2 + 15, y2, 5, 5)  
+    }
+    //noStroke()
+    if (x >= innerWidth /2){
+        for (let i = 0; i < 5; i++) {
+            fishLeft()
+        }
+    }
+    if (x < innerWidth /2){
+        for (let i = 0; i < 5; i++) {
+            fishRight()
+        }
+    }
+    t = t + velo;
+    t2 = t2 + velo;
+    //let velo = slider.value();   Need to figure this out first, make slider control movement
+    textSize(20);
+    text(x2, 5, height - 50);
+    text(velo, 5, height - 30);
+    text('Movement speed', 5, height - 10);
+}
+```
+
+This code was a revised version, where the character was a fish and swapped depending on the side of the screen it was on.
+
 ### Outcome
+
+
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
