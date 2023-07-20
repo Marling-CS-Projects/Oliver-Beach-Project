@@ -48,7 +48,7 @@ seek ()
 
 Initial development was focussed on the fade out system. I used my perlin noise system as the base, however I realised that in the original there was a trail left after the dot.&#x20;
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 As one can see, this appears fine initially. The trail can almost be a benefit, showing the way in which the dot is travelling and the random velocity it is travelling with, thanks to the spacing between the dots.&#x20;
 
@@ -149,9 +149,7 @@ This code was a revised version, where the character was a fish and swapped depe
 
 ### Outcome
 
-
-
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>This is the fish swimming around, with a focus on the opposite side of the map than its current position. </p></figcaption></figure>
 
 ### Challenges
 
@@ -165,6 +163,10 @@ Evidence for testing
 
 ### Tests
 
-<table><thead><tr><th>Test</th><th>Instructions</th><th width="170">What I expect</th><th>What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Dot spawns in a random area, stays in the screen and moves around. </td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Slider moved</td><td>Ball should speed up / slow down.</td><td>Slider addition stops code from running.</td><td>Fail</td></tr><tr><td>3</td><td>Slider moved 2</td><td>Ball should speed up / slow down.</td><td>Ball moves faster / slower. </td><td>Pass</td></tr><tr><td>4</td><td>Text displays correct information. </td><td>Text should show the movement speed value, the position of the ball and a description of the slider. </td><td>As expected</td><td>Pass</td></tr></tbody></table>
+<table><thead><tr><th>Test</th><th>Instructions</th><th width="170">What I expect</th><th>What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Run code</td><td>Dot spawns in a random area, stays in the screen and moves around. </td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Slider moved</td><td>Ball should speed up / slow down.</td><td>Slider addition stops code from running.</td><td>Fail</td></tr><tr><td>3</td><td>Slider moved 2</td><td>Ball should speed up / slow down.</td><td>Ball moves faster / slower. </td><td>Pass</td></tr><tr><td>4</td><td>Text displays correct information. </td><td>Text should show the movement speed value, the position of the ball and a description of the slider. </td><td>No text showed up</td><td>Fail</td></tr><tr><td>5</td><td>Text displays correct information. </td><td>Text should show the movement speed value, the position of the ball and a description of the slider. </td><td>As expected</td><td>Pass</td></tr></tbody></table>
 
 ### Evidence
+
+![](<../.gitbook/assets/image (3).png>)![](<../.gitbook/assets/image (4).png>)
+
+The first image is the issue I had with the text, where a variable wsa being reassigned when it wasnt supposed to be, meaning it never showed up. On the right is how it is supposed to look, with a reading for the x position, the velocity of the character and a description of what the slider does.&#x20;
