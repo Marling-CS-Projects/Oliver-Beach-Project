@@ -1,8 +1,8 @@
-# 2.2.3 Cycle 3
+# 2.2.3 Cycle 3: Model and Design
 
 ## Design
 
-This cycle is focussed on attempting to merge the random movement system of the Perlin dot with a hunting feature. This would create the feeling of two different animals living their lives individually until they met, at which point they would either hunt or be hunted.&#x20;
+This cycle is focussed on attempting to merge the random movement system of the Perlin dot with a rotational system, to give the simulation / game a better flow. This would create the feeling of an animal roaming roaming around, facing a certain point.&#x20;
 
 Another thing I would like to atleast attempt is trying to put one of the systems into the drawable background system, however I doubt this will work due to the difference between a **canvas** and a **map**. &#x20;
 
@@ -10,7 +10,8 @@ Another thing I would like to atleast attempt is trying to put one of the system
 
 These are subject to change due to the difficulty of this cycle and the way in which I am unsure of whether the different codes will work together.&#x20;
 
-* [ ] Try and combine a random movement system to the hunt system.&#x20;
+* [x] Give the character a model
+* [x] Have the character rotate around.
 * [x] Try and set the background to a colour in my code.&#x20;
 
 ### Usability Features
@@ -167,6 +168,6 @@ Evidence for testing
 
 ### Evidence
 
-![](<../.gitbook/assets/image (3).png>)![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (3).png>)![](<../.gitbook/assets/image (4) (1).png>)
 
 The first image is the issue I had with the text, where a variable wsa being reassigned when it wasnt supposed to be, meaning it never showed up. On the right is how it is supposed to look, with a reading for the x position, the velocity of the character and a description of what the slider does.&#x20;
