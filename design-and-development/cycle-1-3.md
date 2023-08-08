@@ -32,9 +32,25 @@ The game should look smooth, load quickly and not be complicated; I would like a
 ### Pseudocode
 
 ```
-procedure do_something
+Game start
+Create hunter
+Create player
+Create orb
+
+When player collides with hunter 
+    game over
     
-end procedure
+when game over = true
+    display game over screen
+    hide all entities
+    new game button
+        if new game button = true
+        show all entities
+        hide game over screen
+        
+w a s d move player 
+hunter chase player, if position < 5px kill
+
 ```
 
 ## Development
