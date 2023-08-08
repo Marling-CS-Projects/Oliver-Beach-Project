@@ -20,6 +20,7 @@
 * [2.2.2 Cycle 2: Implementation System](design-and-development/cycle-1-1.md)
 * [2.2.3 Cycle 3: Model and Design](design-and-development/cycle-1-2.md)
 * [2.2.4 Cycle 4: A goal / target](design-and-development/cycle-1-3.md)
+* [2.2.5 Commenting current code](design-and-development/2.2.5-commenting-current-code.md)
 
 ## 3 Testing <a href="#testing" id="testing"></a>
 
