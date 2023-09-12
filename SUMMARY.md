@@ -21,7 +21,7 @@
 * [2.2.3 Cycle 3: Model and Design](design-and-development/cycle-1-2.md)
 * [Revised Success Criteria](design-and-development/revised-success-criteria.md)
 * [2.2.4 Cycle 4: A goal / target](design-and-development/cycle-1-3.md)
-* [2.2.5 Commenting current code](design-and-development/2.2.5-commenting-current-code.md)
+* [2.2.5 Cycle 5: Commenting current code](design-and-development/2.2.5-cycle-5-commenting-current-code.md)
 * [2.2.6 Cycle 6: A point system](design-and-development/2.2.6-cycle-6-a-point-system.md)
 * [2.2.7 Cycle 7: Point system affects difficulty](design-and-development/2.2.7-cycle-7-point-system-affects-difficulty.md)
 
