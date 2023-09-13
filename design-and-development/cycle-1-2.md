@@ -51,7 +51,7 @@ Initial development was focussed on the fade out system. I used my perlin noise 
 
 <figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
-As one can see, this appears fine initially. The trail can almost be a benefit, showing the way in which the dot is travelling and the random velocity it is travelling with, thanks to the spacing between the dots.&#x20;
+As one can see, this appears fine initially. The trail can almost be a benefit, showing the way in which the dot is travelling and the random velocity it is travelling with, thanks to the spacing between the dots. I was content with this staying in the game as it shows the velocity and more importantly the accelerating / deceleration that the "animal" is moving with.&#x20;
 
 <figure><img src="../.gitbook/assets/Image for project of mess.png" alt=""><figcaption><p>The black sphere shows where the currently moving dot is located. </p></figcaption></figure>
 
@@ -85,6 +85,10 @@ function draw() {
 I then changed this code by adjusting the background colour from the dark black that it currently was to a nicer green colour, that would better represent the green field I wanted the game to occur in.&#x20;
 
 
+
+What I then did was I realised that the main focus on the screen and what the game was running on was a singular white ellipse, so I wanted to add a more game aspect to the game by creating the "main character" of the game. I decided to do this by creating a "fish" model, out of a stretched ellipse and a triangle that moved off centre so it formed a tail, but that also followed the noise system to always stay attached to the ellipse.&#x20;
+
+I also looked deeper into how the opacity system that was hiding the trail worked, and I learnt it works based completely on the "draw" function. Every time the game updates in a tick the draw function is called, which ensures that it is constantly drawing whatever is inside the function, so it can always be updated to a new position. In this case by putting the background colour in the draw and setup, I tell it to create a canvas of colour "blue" and then every tick to draw over everything with "blue" except for what else is in the draw function, in this case the fish. After learning this, I realised how the draw function could be used for more than just the background, as I could make it so that&#x20;
 
 ```javascript
 let t;
