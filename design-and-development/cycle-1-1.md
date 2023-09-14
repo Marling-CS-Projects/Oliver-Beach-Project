@@ -85,7 +85,7 @@ This code was my next progression point. I studied "Perlin noise", a technique t
 
 
 
-These next two code sets work together in p5 Javascript to make a hunter prey system.&#x20;
+These next two code sets work together in p5 JavaScript to make a hunter prey system. This code came from ([https://editor.p5js.org/simontiger/sketches/B1GtGlDGb](https://editor.p5js.org/simontiger/sketches/B1GtGlDGb)) and I used it as an ideal example of a hunter / prey system. The game is simple yet effective and I really like the smooth way in which the characters turn to face either the other character or the nearest "escape".
 
 ```javascript
 // script.js;
@@ -202,7 +202,7 @@ Vehicle.prototype.edges = function() {
 }
 ```
 
-&#x20;This code was a tutorial from the p5 website. This code creates two Vehicles, with a predator prey function. One remains in roughly the centre, chasing the other vehicle which appears and disappears on the corners of the screen. It initiates flee settings when the predator is within a set distance in a sphere around itself. I wanted to use this code to create two dots that would move randomly until they came into close contact, at which point there was a chase setting.&#x20;
+This code was a tutorial from the p5 website. This code creates two "Vehicles", with a predator prey function. One character is chasing the other, which appears and disappears on the corners of the screen. It initiates flee settings when the predator is within a set distance in a sphere around itself. I wanted to use this code to create two dots that would move randomly until they came into close contact, at which point there was a chase setting.&#x20;
 
 ### Outcome
 
@@ -210,7 +210,7 @@ My three different sets of code have very different outcomes. The first set of c
 
 The next set of code was a study into Perlin noise and my first time using p5. It runs well, allowing a dot to move fluidly around a screen whilst simultaneusly moving completely randomly. This inspired me to continue my original idea of interactions between entities, as I could have two dots that would move randomly and be seperate individuals.&#x20;
 
-This is where the third piece of code comes into importance, the two dots will be able to move closer together and when they randomly move close enough they will chase and flee until they may be driven of the side of the map.&#x20;
+This is where the third piece of code comes into importance, the two dots will be able to move closer together and when they randomly move close enough they will chase and flee until they may be driven off the side of the map.&#x20;
 
 ### Challenges
 
@@ -228,7 +228,7 @@ Evidence for testing
 
 ### Tests
 
-<table><thead><tr><th width="97">Test</th><th width="230">Instructions</th><th width="216">What I expect</th><th width="111">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Graph System ran, tested pressing buttons to change input colour. </td><td>The graph should have buttons that can be clicked. The player should be able to then click a pixel and the cell changes to the buttons respective colour.</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Ran the Perlin Noise system, pressed pause and resume. </td><td>The Perlin Noise dot should appear somewhere in the screen, should move around and it should place an image of itself under where it is going. When pause is pressed it should freeze, resume should unpause it.</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Ran the Hunter Prey system. Changed the slider to adjust the range at which they are chased at. </td><td>Expected the vehicles to seek each other out, with the slider deciding the required proximity to cause a flee system. </td><td>Nothing appeared in my web page. </td><td>Fail</td></tr><tr><td>4</td><td>Ran the Hunter Prey system. Changed the code to include the vehicle file, which contains the features of the vehicle classes. </td><td>Expected the vehicles to seek each other out, with the slider deciding the required proximity to cause a flee system. </td><td>As expected, their was a chase and the slider worked.</td><td>Pass</td></tr></tbody></table>
+<table><thead><tr><th width="97">Test</th><th width="230">Instructions</th><th width="216">What I expect</th><th width="111">What actually happens</th><th>Pass/Fail</th></tr></thead><tbody><tr><td>1</td><td>Graph System ran, tested pressing buttons to change input colour. </td><td>The graph should have buttons that can be clicked. The player should be able to then click a pixel and the cell changes to the buttons respective colour.</td><td>As expected</td><td>Pass</td></tr><tr><td>2</td><td>Ran the Perlin Noise system, pressed pause and resume. </td><td>The Perlin Noise dot should appear somewhere in the screen, should move around and it should place an image of itself under where it is going. When pause is pressed it should freeze, resume should unpause it.</td><td>As expected</td><td>Pass</td></tr><tr><td>3</td><td>Ran the Hunter Prey system. Changed the slider to adjust the range at which they are chased at. </td><td>Expected the vehicles to seek each other out, with the slider deciding the required proximity to cause a flee system. </td><td>Nothing appeared in my web page. </td><td>Fail</td></tr><tr><td>4</td><td>Ran the Hunter Prey system. Changed the code to include the vehicle file, which contains the features of the vehicle classes. </td><td>Expected the vehicles to seek each other out, with the slider deciding the required proximity to cause a flee system. </td><td>As expected, there was a chase and the slider worked.</td><td>Pass</td></tr></tbody></table>
 
 ### Evidence
 
