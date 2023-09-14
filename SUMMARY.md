@@ -24,6 +24,7 @@
 * [2.2.5 Cycle 5: Commenting current code](design-and-development/2.2.5-cycle-5-commenting-current-code.md)
 * [2.2.6 Cycle 6: A point system](design-and-development/2.2.6-cycle-6-a-point-system.md)
 * [2.2.7 Cycle 7: Point system affects difficulty](design-and-development/2.2.7-cycle-7-point-system-affects-difficulty.md)
+* [Cycle 8: Minor tweaks and error fixes](design-and-development/cycle-8-minor-tweaks-and-error-fixes.md)
 
 ## 3 Testing <a href="#testing" id="testing"></a>
 
