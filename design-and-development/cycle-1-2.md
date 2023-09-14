@@ -55,7 +55,7 @@ As one can see, this appears fine initially. The trail can almost be a benefit, 
 
 <figure><img src="../.gitbook/assets/Image for project of mess.png" alt=""><figcaption><p>The black sphere shows where the currently moving dot is located. </p></figcaption></figure>
 
-However, I hope one can see why this needed to change. It rapidly becomes an unclear mess of trails, where you can barely see the actual moving dot and instead you have to focus on the trail. To fix this issue, I decided the trail needed to fade out after it had been made. I spent a long time trying to make a system that remembered the position of the dot from, say, five positions previously. After spending the time trying to figure this out, I came up with a new solution thanks to inspiration from an art game on the p5 website. All I needed to do was set the background to a dark colour, then set the dot to a bright colour and create a second background that was an incredibly dark colour. The second background acts as a mask, covering the original. This means that when the trail is created, it dissapears behind the mask and leaves only the dot itself and a very short trail behind it. This allows for the appearance of a single point that is moving randomly arround the background.
+However, I hope one can see why this needed to change. It rapidly becomes an unclear mess of trails, where you can barely see the actual moving dot and instead you have to focus on the trail. To fix this issue, I decided the trail needed to fade out after it had been made. I spent a long time trying to make a system that remembered the position of the dot from, say, five positions previously. This would allow a short trail where the orb came from but it would constantly create and destroy little orbs on screen which could be distracting. After spending the time trying to figure this out, I came up with a new solution thanks to inspiration from an art game on the p5 website. All I needed to do was set the background to a dark colour, then set the dot to a bright colour and create a second background that was an incredibly dark colour. The second background acts as a mask, covering the original. This means that when the trail is created, it disappears behind the mask and leaves only the dot itself and a very short trail behind it. This allows for the appearance of a single point that is moving randomly around the background.
 
 ```javascript
 let t;
@@ -82,13 +82,11 @@ function draw() {
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Note the lack of a visible trail, instead the singular point that appears to move on its own- closer to a wild animal moving around an environment semi-randomly. </p></figcaption></figure>
 
-I then changed this code by adjusting the background colour from the dark black that it currently was to a nicer green colour, that would better represent the green field I wanted the game to occur in.&#x20;
+I then changed this code by adjusting the background colour from the dark black that it currently was to a nicer light blue colour, that would better represent the water I wanted the game to occur in. This was different to the grass field I had originally planned on setting my game in but I feel like it would suit the new direction I had in mind better.&#x20;
 
+What I then did was I realised that the main focus on the screen and what the game was running on was a singular white ellipse, so I wanted to add a more "fun" aspect to the game by creating the "main character" of the game. I decided to do this by creating a fish model, out of a stretched ellipse and a triangle that moved off centre so it formed a tail, but that also followed the noise system to always stay attached to the ellipse.&#x20;
 
-
-What I then did was I realised that the main focus on the screen and what the game was running on was a singular white ellipse, so I wanted to add a more game aspect to the game by creating the "main character" of the game. I decided to do this by creating a "fish" model, out of a stretched ellipse and a triangle that moved off centre so it formed a tail, but that also followed the noise system to always stay attached to the ellipse.&#x20;
-
-I also looked deeper into how the opacity system that was hiding the trail worked, and I learnt it works based completely on the "draw" function. Every time the game updates in a tick the draw function is called, which ensures that it is constantly drawing whatever is inside the function, so it can always be updated to a new position. In this case by putting the background colour in the draw and setup, I tell it to create a canvas of colour "blue" and then every tick to draw over everything with "blue" except for what else is in the draw function, in this case the fish. After learning this, I realised how the draw function could be used for more than just the background, as I could make it so that&#x20;
+I also looked deeper into how the opacity system that was hiding the trail worked, and I learnt it works based completely on the "draw" function. Every time the game updates in a tick the draw function is called, which ensures that it is constantly drawing whatever is inside the function, so it can always be updated to a new position. In this case by putting the background colour in the draw and setup, I tell it to create a canvas of colour "blue" and then every tick to draw over everything with "blue" except for what else is in the draw function, in this case the fish.&#x20;
 
 ```javascript
 let t;
@@ -150,7 +148,7 @@ function draw() {
 }
 ```
 
-This code was a revised version, where the character was a fish and swapped depending on the side of the screen it was on.
+This code was a revised version, where the character was a fish and swapped depending on the side of the screen it was on. What I have also added to this code is the text and slider sections. This combines to create an information board that I aim to use to help in future with debugging and future coding. It should display the x position of the fish so that I can see the Perlin noise is smoothly moving it around the map, the velocity reading to show how fast it should be travelling and the slider to adjust the stated velocity.&#x20;
 
 ### Outcome
 
@@ -160,7 +158,7 @@ This code was a revised version, where the character was a fish and swapped depe
 
 Making the background opacity system work well- I was often left with a "phantom" trail, a very light grey / black shadow of where the ball had been. This wasn't bad initially but as the code ran for a longer time, the shadows built up until you once again lost the ball in an unclear mess. To fix this I adjusted the opacity levels and the way it was being applied to the screen, moving it forwards a layer so it coated the back more completely.&#x20;
 
-Another thing I struggled with, was the velocity slider. I wanted the player to be able to adjust the speed the simulation was running at, using a slider. However I struggled immensley getting the numerical value of the slider to work with the speed system. I fixed this eventually by dividing the slider value by 1000. Something I hadn't considered was the way in which the speed system was working on a value around 0.002 being the current speed. Anything above 0.1 was almost too fast too see. With my slider I was trying to set the speed to at minimum 1, up to 100 initially. Eventually I found that by dividing this by 1000 I got a value that could be shown on screen, fixing the issue.&#x20;
+Another thing I struggled with, was the velocity slider. I wanted the player to be able to adjust the speed the simulation was running at, using a slider. However I struggled immensely getting the numerical value of the slider to work with the speed system. I fixed this eventually by dividing the slider value by 1000. Something I hadn't considered was the way in which the speed system was working on a value around 0.002 being the current speed. Anything above 0.1 was almost too fast too see. With my slider I was trying to set the speed to at minimum 1, up to 100 initially. Eventually I found that by dividing this by 1000 I got a value that could be shown on screen, fixing the issue.&#x20;
 
 ## Testing
 

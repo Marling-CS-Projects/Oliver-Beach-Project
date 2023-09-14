@@ -8,9 +8,9 @@ In this cycle I plan to make a central objective to the player. Some initial ide
 
 This image shows the three game ideas I have right now: A ball of food that if the fish passes close too it eats, that could drop from the top and then rest in the middle of the screen.&#x20;
 
-The second game would introduce a system where the food ball was controlled by the player, and the player had too evade a hunter, who was trying to eat the food.&#x20;
+The second game would introduce a system where the food ball was controlled by the player, and the player had to evade a hunter, who was trying to eat the food.&#x20;
 
-The third game would introduce a second fish, that chases the first off the screen. This would simulate a hunting behaviour, however would most likely require a new system of movement to be introduced.&#x20;
+The third game would introduce a second fish, that chases the first off the screen. This would simulate a hunting behaviour, however would most likely require a new system of movement to be introduced. **(on retrospect I believe this was too similar to the game I found off the p5 website and so I chose not to go with it.)**
 
 ### Objectives
 
@@ -26,7 +26,7 @@ The game should look smooth, load quickly and not be complicated; I would like a
 | Variable Name | Use                                                                                                                                                                                                                                                                                                                                                                          |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | hide ()       | Stops whatever is being hidden from being displayed. Good for my game over screen, hides the buttons and text.                                                                                                                                                                                                                                                               |
-| show ()       | Removes the hide effect, neccessary for a game over new game system where things are being hidden then need to be re displayed.                                                                                                                                                                                                                                              |
+| show ()       | Removes the hide effect, necessary for a game over new game system where things are being hidden then need to be re displayed.                                                                                                                                                                                                                                               |
 | width /2      | This system allows me to place objects at a certain point no matter the pixels available, for instance I had the width set to my monitor specifications (1920 x 1080) however when loaded in a smaller window the game just had a scroll bar. By introducing innerheight and innerwidth amongst other things I was able to keep the game regular no matter the screen size.  |
 
 ### Pseudocode
@@ -183,7 +183,7 @@ function fishRight() {
 }
 ```
 
-This code was what I had come to have. It features a new hunter, that chases the players current position and stops on top of the player. It obeys the pause and resume commands meaning the player now has a visible thing that is following them. I now need to create collision features for both the hunter and the orb, which I am thinking of removing. I believe the game has taken a different direction since I started it and I believe that the orb, if not easily useable, is easily replaceable. The main goal right now is to get the hunter to feel like a threat, so the player has some form of danger to worry about whilst they play as the fish.&#x20;
+This code was what I had come to have. It features a new hunter, that chases the players current position and stops on top of the player. It obeys the pause and resume commands and means the player now has a visible thing that is following them. I now need to create collision features for both the hunter and the orb, which I am thinking of removing. I believe the game has taken a different direction since I started it and I believe that the orb, if not easily useable, is easily replaceable. The main goal right now is to get the hunter to feel like a threat, so the player has some form of danger to worry about whilst they play as the fish. I have decided to deal with the orb later but for now my focus is solely on the hunter.&#x20;
 
 ```javascript
 let t;
