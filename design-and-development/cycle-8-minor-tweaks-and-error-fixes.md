@@ -83,7 +83,7 @@ This code centres the text, whilst having the new benefit of creating an outline
 
 ![](../.gitbook/assets/image.png)
 
-
+NEED TO MAKE WIDTH OF STROKE LARGER TO MAKE LESS PIXELATED FIIIIIIIIXXXX THIS&#x20;
 
 ### Outcome
 
