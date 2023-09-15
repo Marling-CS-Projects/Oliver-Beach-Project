@@ -69,7 +69,7 @@ infoLabel.innerHTML = "There are " + yellows.length + " yellow box(es)."
 
 This was my first attempt at what I would quickly find to be a deceptively easy task. I was trying to make a grid that had cells that could be interacted with. When clicked, the cell was meant to change colour.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This was the attempt, I like the way the grid came out initially- The problem is when you try to interact with a cell, nothing happened. I then moved onto a different code, hoping to fix this issue. I attempted to make the code more concise, relying more on looping statements to minimise the code and keep it simple.&#x20;
 
