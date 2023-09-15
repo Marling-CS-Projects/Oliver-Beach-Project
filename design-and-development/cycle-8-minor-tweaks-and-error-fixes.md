@@ -68,7 +68,7 @@ textAlign(CENTER, CENTER)
     text('Game Over', (width / 2) - 170, height / 2);
 ```
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 This is the original text, as you can see it is off centre. Whilst this doesn't change the gameplay in any way I feel like the change has a massive effect and helps make it look more serious.
 
@@ -81,9 +81,27 @@ This is the original text, as you can see it is off centre. Whilst this doesn't 
 
 This code centres the text, whilst having the new benefit of creating an outline that helps the text stand out on the black background.  Whilst it isn't perfectly centered, the nice thing about the change I made is that it works no matter the size of the window of the game, something that couldn't be said for all previous versions.&#x20;
 
-![](../.gitbook/assets/image.png)
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-NEED TO MAKE WIDTH OF STROKE LARGER TO MAKE LESS PIXELATED FIIIIIIIIXXXX THIS&#x20;
+And with the small addition of:&#x20;
+
+```javascript
+strokeWeight(5);
+```
+
+The game over text no longer has blurry borders and now looks like:
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+The next area I was going to tackle fixing was the problem of how the fish (player) could escape the camera and canvas by going off the side of the screen, becoming completely lost.&#x20;
+
+&#x20;**VIEDEO EXAMPLE OF CURRENT PROBLEM**
+
+This problem can be an annoyance to the majority of players as they just end up off the screen, but for a younger player who is likely to just hold one direction at some point, that run would be over as the player would get lost off the screen then possibly either die to the hunter or just never find their way back to the screen.&#x20;
+
+This has been a problem in the game for a long time however it has not been a priority to fix it as it doesn't ruin the game unless the player leaves the screen. However it is finally time to fix the issue, so I came up with two options to fix the problem.&#x20;
+
+<table data-full-width="false"><thead><tr><th>Invisible border at edge .</th><th>Teleportation to opposite side. </th></tr></thead><tbody><tr><td>Very visible when the player is at the edge of the screen. </td><td>Could be hard to learn at the start</td></tr><tr><td>Simple to add.</td><td>Tougher to add</td></tr><tr><td>Prevents the game from changing too much.</td><td>Adds new dynamics to the game</td></tr><tr><td>However:</td><td>However:</td></tr><tr><td>Less interactive</td><td>Much more interactive, allows the player to escape the hunter or catch up to the orange orb. </td></tr><tr><td>Less interesting / fun</td><td>Could be more fun, as the player unlocks new options.</td></tr><tr><td>Adds no new features / ideas. </td><td>Adds new potential to the game. </td></tr></tbody></table>
 
 ### Outcome
 
