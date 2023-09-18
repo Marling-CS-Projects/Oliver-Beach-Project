@@ -379,7 +379,7 @@ Amongs this was the difficulty I had making my ideas become practical, often rev
 
 I tested constantly throughout my coding stage, learning how to effectively use Replit's development screen.&#x20;
 
-![](<../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
 
 I also sent my game to a friend to let him play it and reviewed what he said:&#x20;
 
@@ -397,7 +397,7 @@ The second question is a work in progress, I need to create collision between th
 
 ### Evidence
 
-![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png>)
 
 This code is where the game over is being incorrectly called at any point the characters collide. The game is stopped correctly however no game over screen is displayed nor is there any action to start a new game. On the other hand:
 
