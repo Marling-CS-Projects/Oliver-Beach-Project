@@ -46,5 +46,5 @@ Red, R., 2022. How to Install Safari on Linux \[WWW Document]. Make Tech Easier.
 
 Firefox  112.0.2 System Requirements \[WWW Document], n.d. . Mozilla. URL [https://www.mozilla.org/en-US/firefox/112.0.2/system-requirements/](https://www.mozilla.org/en-US/firefox/112.0.2/system-requirements/) (accessed 5.12.23).
 
-
+PEGI rating, nd. URL [https://nsnacademy.com/wp-content/uploads/2021/03/PEGI-games-ratings.pdf](https://nsnacademy.com/wp-content/uploads/2021/03/PEGI-games-ratings.pdf) (accessed 22.9.23)
 
