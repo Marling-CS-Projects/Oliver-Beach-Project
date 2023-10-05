@@ -236,4 +236,4 @@ Evidence for testing
 
 <figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>The perlin noise systems random movement system. </p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>A prey (with representative range circle) and the hunter turning into its circle to seek it out. Not my code, credit to <a href="https://editor.p5js.org/simontiger/sketches/B1GtGlDGb">https://editor.p5js.org/simontiger/sketches/B1GtGlDGb</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>A prey (with representative range circle) and the hunter turning into its circle to seek it out. Not my code, credit to <a href="https://editor.p5js.org/simontiger/sketches/B1GtGlDGb">https://editor.p5js.org/simontiger/sketches/B1GtGlDGb</a></p></figcaption></figure>
