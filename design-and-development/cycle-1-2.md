@@ -80,7 +80,7 @@ function draw() {
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Note the lack of a visible trail, instead the singular point that appears to move on its own- closer to a wild animal moving around an environment semi-randomly. </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Note the lack of a visible trail, instead the singular point that appears to move on its own- closer to a wild animal moving around an environment semi-randomly. </p></figcaption></figure>
 
 I then changed this code by adjusting the background colour from the dark black that it currently was to a nicer light blue colour, that would better represent the water I wanted the game to occur in. This was different to the grass field I had originally planned on setting my game in but I feel like it would suit the new direction I had in mind better.&#x20;
 
@@ -152,7 +152,7 @@ This code was a revised version, where the character was a fish and swapped depe
 
 ### Outcome
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>This is the fish swimming around, with a focus on the opposite side of the map than its current position. </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>This is the fish swimming around, with a focus on the opposite side of the map than its current position. </p></figcaption></figure>
 
 ### Challenges
 
@@ -170,6 +170,6 @@ Evidence for testing
 
 ### Evidence
 
-![](<../.gitbook/assets/image (3) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (4) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png>)
 
 The first image is the issue I had with the text, where a variable was being reassigned when it wasn't supposed to be, meaning it never showed up. On the right is how it is supposed to look, with a reading for the x position, the velocity of the character and a description of what the slider does.&#x20;
