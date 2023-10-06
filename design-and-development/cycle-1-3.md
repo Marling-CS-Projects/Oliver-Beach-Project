@@ -397,14 +397,14 @@ The second question is a work in progress, I need to create collision between th
 
 ### Evidence
 
-![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This code is where the game over is being incorrectly called at any point the characters collide. The game is stopped correctly however no game over screen is displayed nor is there any action to start a new game. On the other hand:
 
-![](<../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png>)
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This shows the location the player was killed, the new game button and the game over text. When clicked, new game causes this:
 
-![](<../.gitbook/assets/image (3) (1) (1) (1) (1).png>)
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 As you can see the player is still in the same spot but the hunter has been sent back to the centre of the screen, giving the player the chance to escape. Eventually that button will be constantly useable and will also reset a score to 0 and game difficulty to 0.&#x20;
