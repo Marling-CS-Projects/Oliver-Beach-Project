@@ -170,6 +170,6 @@ Evidence for testing
 
 ### Evidence
 
-![](<../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png>)
 
 The first image is the issue I had with the text, where a variable was being reassigned when it wasn't supposed to be, meaning it never showed up. On the right is how it is supposed to look, with a reading for the x position, the velocity of the character and a description of what the slider does.&#x20;

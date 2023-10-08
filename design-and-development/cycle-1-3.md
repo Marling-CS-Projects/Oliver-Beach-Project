@@ -379,7 +379,7 @@ Amongs this was the difficulty I had making my ideas become practical, often rev
 
 I tested constantly throughout my coding stage, learning how to effectively use Replit's development screen.&#x20;
 
-![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 I also sent my game to a friend to let him play it and reviewed what he said:&#x20;
 
@@ -397,14 +397,14 @@ The second question is a work in progress, I need to create collision between th
 
 ### Evidence
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This code is where the game over is being incorrectly called at any point the characters collide. The game is stopped correctly however no game over screen is displayed nor is there any action to start a new game. On the other hand:
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This shows the location the player was killed, the new game button and the game over text. When clicked, new game causes this:
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 As you can see the player is still in the same spot but the hunter has been sent back to the centre of the screen, giving the player the chance to escape. Eventually that button will be constantly useable and will also reset a score to 0 and game difficulty to 0.&#x20;
