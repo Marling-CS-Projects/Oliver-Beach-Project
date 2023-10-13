@@ -48,3 +48,4 @@ Firefox  112.0.2 System Requirements \[WWW Document], n.d. . Mozilla. URL [https
 
 PEGI rating, nd. URL [https://nsnacademy.com/wp-content/uploads/2021/03/PEGI-games-ratings.pdf](https://nsnacademy.com/wp-content/uploads/2021/03/PEGI-games-ratings.pdf) (accessed 22.9.23)
 
+Aston, S., n.d. [https://www.chilimath.com/lessons/intermediate-algebra/distance-formula/](https://www.chilimath.com/lessons/intermediate-algebra/distance-formula/)

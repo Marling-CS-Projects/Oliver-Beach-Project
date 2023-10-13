@@ -238,13 +238,13 @@ function setup() {
 
 
 function hunterChase() {
-    let dx = player.moveX - hunter.moveX;
-    let dy = player.moveY - hunter.moveY;
-    let distance = sqrt(dx * dx + dy * dy);
+    let distancex = player.moveX - hunter.moveX;
+    let distancey = player.moveY - hunter.moveY;
+    let distance = sqrt(distancex * distancex + distancey * distancey);
 
     if (distance > 5) {
-        hunter.moveX += (dx / distance) * hunter.speed;
-        hunter.moveY += (dy / distance) * hunter.speed;
+        hunter.moveX += (distancex / distance) * hunter.speed;
+        hunter.moveY += (distancey / distance) * hunter.speed;
     }
 }
 
@@ -360,6 +360,8 @@ function gameOver() {
 This code now featured a hunter object, that when collided with the player, caused a game over screen to be displayed. This gave the game a definite end and helped me learn about collisions, hitboxes and ways to have better control over the flow of my game.&#x20;
 
 I then added more to the game over screen, creating a new game button that, when clicked, started the game over from the death position, allowing the player to play again.&#x20;
+
+The formulae for the hunter tracking / getting to the player comes from a mix of the maths from [https://www.chilimath.com/lessons/intermediate-algebra/distance-formula/](https://www.chilimath.com/lessons/intermediate-algebra/distance-formula/) (Aston, n.d.) and the&#x20;
 
 ### Outcome
 
