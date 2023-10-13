@@ -85,7 +85,7 @@ function draw() {
 
 This code was my next progression point. I studied "Perlin noise", a technique to make a random point more even. This allowed me to make a random moving pixel that stuck to a logic and seemed less eratic. I used this to make the code above, which when ran creates an ellipsis that leaves a "trail" and moves in a random fashion around the screen. I wanted to use this to create a system where it would show animals as little pixels and they would move around the screen randomly.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This image represents Perlin noise, showing how it is a completely random movement, yet still seems to follow an order and pattern. Because of this I believe it will be great to use to make things  move in a certain area, so they don't get stuck in place.&#x20;
 
