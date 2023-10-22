@@ -17,7 +17,7 @@
 
 * [2.1 Design Frame](design-and-development/systems-diagram.md)
 * [2.2.1 Cycle 1: World Design](design-and-development/cycle-1.md)
-* [2.2.2 Cycle 2: Implementation System](design-and-development/cycle-1-1.md)
+* [2.2.2 Cycle 2: Implementation System and Perlin Noise Research](design-and-development/cycle-1-1.md)
 * [2.2.3 Cycle 3: Model and Design](design-and-development/cycle-1-2.md)
 * [Revised Success Criteria](design-and-development/revised-success-criteria.md)
 * [2.2.4 Cycle 4: A goal / target](design-and-development/cycle-1-3.md)
