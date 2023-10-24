@@ -4,7 +4,7 @@ description: Computer Science H446-03
 
 # Fish Browser Game
 
-
+<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 |                  |                |
 | ---------------- | -------------- |
