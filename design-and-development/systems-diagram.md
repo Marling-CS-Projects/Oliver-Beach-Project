@@ -23,6 +23,7 @@ Users can achieve a goal with completeness and accuracy. To do this, I will make
 #### Aims
 
 * Create multiple, clear goals to reach&#x20;
+* Make it clear when a goal is complete
 
 ### Efficiency
 
@@ -63,51 +64,76 @@ The solution should be easy to use and not be over complicated. To do this, I wi
 
 ## Pseudocode for the Game
 
+This is the pseudocode for my revised game.&#x20;
+
 ### Pseudocode for game
 
-This is the basic layout of the object to store the details of the game. This will be what is rendered as it will inherit all important code for the scenes.
+This is the basic layout of the object to store the details of the game. This will be what is rendered.
 
 ```
-object Game
-    type: Phaser
-    parent: id of HTML element
-    width: width
-    height: height
-    physics: set up for physics
-    scenes: add all menus, levels and other scenes
-end object
-
-render Game to HTML web page
+function setup
+    createCanvas
+    background (colour)
+    time = 
+    create button (pause)
+    create button (resume)
+    create button (New Game)
 ```
 
-### Pseudocode for a level
+### Pseudocode for the main
 
-This shows the basic layout of code for a Phaser scene. It shows where each task will be executed.
+This shows the basic layout of code for my game.
 
 ```
-class Level extends Phaser Scene
+cosnt player
+    speed
+    up
+        move up
+    down
+        move down
+    left
+        move left
+    right
+        move right
+        
+function setup
+    createCanvas
+    background (colour)
+    time = 
+    create button (pause)
+    create button (resume)
+    create button (New Game)
+    
+function hunterChase
+    if hunter is != player XY
+        make hunter X Y = player X Y
 
-    procedure preload
-        load all sprites and music
-    end procedure
+function draw
+    background
+    let x = perlin noise
+    let y = perlin noise
+    if W or up arrow is pressed
+        move up
+    if S or down arrow is pressed
+        move down
+    if A or left arrow is pressed
+        move left
+    if D or right arrow is pressed
+        move right 
+        
+    function gameOver
+        if hunter X Y = player X Y 
+            display game over
+            bacground = black
+            
+    function orrangeEllipseCollision
+        if orangeEllipse = player X Y 
+            collide
+            counter + 1
+            
+function fishRight
+    fish right model
     
-    procedure create
-        start music
-        draw background
-        create animals
-        create plants
-        create obstacles
-        create implementation
-        create key bindings
-    end procedure
-    
-    procedure update
-        handle key presses
-        move camera
-        move interactable objects
-        update animations
-        check if player at exit
-    end procedure
-    
-end class
+function fishLeft
+    fish left model
 ```
