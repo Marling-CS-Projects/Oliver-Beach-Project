@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Fish Browser Game.](README.md)
+* [Fish Browser Game](README.md)
 * [Reference List](reference-list.md)
 
 ## 1 Analysis <a href="#analysis" id="analysis"></a>
