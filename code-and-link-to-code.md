@@ -1,4 +1,4 @@
-# Code and Link to Code.
+# Code and Link to Code
 
 ## My finished code:&#x20;
 
@@ -303,4 +303,8 @@ body {
 
 ## Link To Replit:
 
-[https://replit.com/@OliverBeach/Final-Project-Fish-Game#script.js](https://replit.com/@OliverBeach/Final-Project-Fish-Game#script.js)
+{% embed url="https://replit.com/@OliverBeach/Final-Project-Fish-Game#script.js" fullWidth="false" %}
+
+Link To Github:
+
+{% embed url="https://github.com/17b23772/JSproject" %}

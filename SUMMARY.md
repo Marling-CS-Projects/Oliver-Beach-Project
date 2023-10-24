@@ -40,4 +40,4 @@
 
 ***
 
-* [Code and Link to Code.](code-and-link-to-code..md)
+* [Code and Link to Code](code-and-link-to-code.md)
